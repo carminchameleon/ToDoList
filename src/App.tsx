@@ -1,14 +1,14 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import Todo from './components/organisms/Todo';
+import ToDo from './components/organisms/Todo'
 import { theme, GlobalStyle } from './styles';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Todo />
+      <ThemeProvider theme={theme}> 
+        <ToDo />
       </ThemeProvider>
     </>
   );

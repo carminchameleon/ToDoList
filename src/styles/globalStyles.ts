@@ -18,15 +18,20 @@ input{
   background: none;
   line-height: 1;
   border: none;
+  
   /* Browsers have different default form fonts */
   font-size: 13px;
   font-family: Arial;
 
   :focus {
+    border-bottom: 1px solid white;
+
     border: none;
   }
 
   :focus-visible {
+    border-bottom: 1px solid white;
+
     outline: none;
   }
 }
